@@ -5,7 +5,7 @@ import Chat from './Chat';
 function App() {
   return (
     <div className="App">
-      <h1>Wellcome to my chat - the zap 2</h1>
+      <h1>Wellcome to my chat - the zap 3</h1>
       
       <Chat />  
     </div>
