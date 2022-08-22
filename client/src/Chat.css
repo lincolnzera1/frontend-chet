@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ul li {
+    list-style: none;
+    font-size: 30px;
+    background-color: orange;
+    overflow-wrap: break-word;
+}
+ */
+
+
+ .mine{
+    
+    /*  background-color: lightgreen;
+    padding: 0px 15px 0px 5px;
+    overflow-wrap: break-word;
+    width: 300px;   */
+
+    text-align: end;
+
+}
+
+
+
+.list-mine{
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: justify;
+
+    list-style: none;
+    font-size: 30px;
+    border: 3px solid black;
+    background-color: lightgreen;
+    overflow-wrap: break-word;
+    margin-left: 50%;
+}
+
+.list-other{
+    margin-bottom: 20px;
+    margin-right: 50%;
+    padding: 10px;
+    text-align: center;
+
+    list-style: none;
+    font-size: 30px;
+    background-color: lightsalmon;
+    border: 3px solid black;
+    overflow-wrap: break-word;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 700px;
+    width: 650px;
+    box-shadow: 0 0 5px black;
+
+    overflow-y: scroll;
+    text-align: end;
+    padding: 10px;
+}
+.quadrado{
+    text-align: end;
+    
+   /*  height: 300px;
+    width: 200px;
+    background-color: lightsalmon; */
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: lightgreen;
+    border: 3px solid black;
+    color: white;
+    text-align: center;
+    
+}
+
+input{
+    margin-top: 5px;
+    height: 40px;
+    width: 300px;
+    font-size: 30px;
+}
